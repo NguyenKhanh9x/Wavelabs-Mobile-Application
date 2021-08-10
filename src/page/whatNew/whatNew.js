@@ -109,7 +109,7 @@ const WhatNew = (props) => {
                                 marginBottom: 20,
                             }} />
                         {formik.errors.srcImage ? (
-                            <div style={{ marginBottom: 20 }}>{formik.errors.srcImage}</div>
+                            <div style={{ marginBottom: 20, color: "#FF0000" }}>{formik.errors.srcImage}</div>
                         ) : null}
                         <TextField
                             id='heading'
